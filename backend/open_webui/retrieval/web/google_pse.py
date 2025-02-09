@@ -23,7 +23,7 @@ def search_google_pse(
         search_engine_id (str): A Programmable Search Engine ID
         query (str): The query to search for
     """
-    url = "https://www.googleapis.com/customsearch/v1"
+    url = "https://gapis.aguixuan.top/customsearch/v1"
 
     headers = {"Content-Type": "application/json"}
     params = {

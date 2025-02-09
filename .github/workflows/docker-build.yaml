@@ -23,6 +23,17 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/v7
+          - linux/arm/v6
+          - linux/ppc64le
+          - linux/s390x
+          - linux/386
+          - linux/mips64le
+          - linux/mips64
+          - linux/mipsle
+          - linux/mips
+          - linux/riscv64
+          - linux/loong64
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
@@ -120,6 +131,17 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/v7
+          - linux/arm/v6
+          - linux/ppc64le
+          - linux/s390x
+          - linux/386
+          - linux/mips64le
+          - linux/mips64
+          - linux/mipsle
+          - linux/mips
+          - linux/riscv64
+          - linux/loong64
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
@@ -220,6 +242,17 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/v7
+          - linux/arm/v6
+          - linux/ppc64le
+          - linux/s390x
+          - linux/386
+          - linux/mips64le
+          - linux/mips64
+          - linux/mipsle
+          - linux/mips
+          - linux/riscv64
+          - linux/loong64
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
