@@ -166,7 +166,7 @@ async def speech(request: Request, user=Depends(get_verified_user)):
     idx = None
     try:
         idx = request.app.state.config.OPENAI_API_BASE_URLS.index(
-            "https://api.openai.com/v1"
+            "https://openai.api.aguixuan.top/v1"
         )
 
         body = await request.body()
@@ -383,7 +383,7 @@ async def get_all_models(request: Request) -> dict[str, list]:
                             "urlIdx": idx,
                         }
                         for model in models
-                        if "api.openai.com"
+                        if "openai.api.aguixuan.top"
                         not in request.app.state.config.OPENAI_API_BASE_URLS[idx]
                         or not any(
                             name in model["id"]
@@ -458,7 +458,7 @@ async def get_models(
                     response_data = await r.json()
 
                     # Check if we're calling OpenAI API based on the URL
-                    if "api.openai.com" in url:
+                    if "openai.api.aguixuan.top" in url:
                         # Filter models according to the specified conditions
                         response_data["data"] = [
                             model
@@ -625,7 +625,7 @@ async def generate_chat_completion(
     is_o1 = payload["model"].lower().startswith("o1-")
     if is_o1:
         payload = openai_o1_handler(payload)
-    elif "api.openai.com" not in url:
+    elif "openai.api.aguixuan.top" not in url:
         # Remove "max_completion_tokens" from the payload for backward compatibility
         if "max_completion_tokens" in payload:
             payload["max_tokens"] = payload["max_completion_tokens"]

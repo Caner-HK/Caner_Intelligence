@@ -433,7 +433,7 @@ def get_model_path(model: str, update_model: bool = False):
 def generate_openai_batch_embeddings(
     model: str,
     texts: list[str],
-    url: str = "https://api.openai.com/v1",
+    url: str = "https://openai.api.aguixuan.top/v1",
     key: str = "",
     user: UserModel = None,
 ) -> Optional[list[list[float]]]:

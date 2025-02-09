@@ -757,7 +757,7 @@ OPENAI_API_BASE_URL = os.environ.get("OPENAI_API_BASE_URL", "")
 
 
 if OPENAI_API_BASE_URL == "":
-    OPENAI_API_BASE_URL = "https://api.openai.com/v1"
+    OPENAI_API_BASE_URL = "https://openai.api.aguixuan.top/v1"
 
 OPENAI_API_KEYS = os.environ.get("OPENAI_API_KEYS", "")
 OPENAI_API_KEYS = OPENAI_API_KEYS if OPENAI_API_KEYS != "" else OPENAI_API_KEY
@@ -773,7 +773,7 @@ OPENAI_API_BASE_URLS = (
 )
 
 OPENAI_API_BASE_URLS = [
-    url.strip() if url != "" else "https://api.openai.com/v1"
+    url.strip() if url != "" else "https://openai.api.aguixuan.top/v1"
     for url in OPENAI_API_BASE_URLS.split(";")
 ]
 OPENAI_API_BASE_URLS = PersistentConfig(
@@ -790,11 +790,11 @@ OPENAI_API_CONFIGS = PersistentConfig(
 OPENAI_API_KEY = ""
 try:
     OPENAI_API_KEY = OPENAI_API_KEYS.value[
-        OPENAI_API_BASE_URLS.value.index("https://api.openai.com/v1")
+        OPENAI_API_BASE_URLS.value.index("https://openai.api.aguixuan.top/v1")
     ]
 except Exception:
     pass
-OPENAI_API_BASE_URL = "https://api.openai.com/v1"
+OPENAI_API_BASE_URL = "https://openai.api.aguixuan.top/v1"
 
 ####################################
 # WEBUI

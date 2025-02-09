@@ -240,7 +240,7 @@ export const getOpenAIModels = async (token: string, urlIdx?: number) => {
 
 export const verifyOpenAIConnection = async (
 	token: string = '',
-	url: string = 'https://api.openai.com/v1',
+	url: string = 'https://openai.api.aguixuan.top/v1',
 	key: string = ''
 ) => {
 	let error = null;
