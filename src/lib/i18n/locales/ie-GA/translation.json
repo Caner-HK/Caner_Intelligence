@@ -1090,5 +1090,6 @@
 	"Your account status is currently pending activation.": "Tá stádas do chuntais ar feitheamh faoi ghníomhachtú.",
 	"Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.": "Rachaidh do ranníocaíocht iomlán go díreach chuig an bhforbróir breiseán; Ní ghlacann Open WebUI aon chéatadán. Mar sin féin, d'fhéadfadh a tháillí féin a bheith ag an ardán maoinithe roghnaithe.",
 	"Youtube": "Youtube",
-	"Youtube Loader Settings": "Socruithe Luchtaire Youtube"
+	"Youtube Loader Settings": "Socruithe Luchtaire Youtube",
+	"based on": "bunaithe ar"
 }

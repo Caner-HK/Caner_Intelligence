@@ -1090,5 +1090,6 @@
 	"Your account status is currently pending activation.": "Stav vašeho účtu je nyní čekající na aktivaci.",
 	"Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.": "Váš celý příspěvek půjde přímo vývojáři pluginu; Open WebUI si nebere žádné procento. Vybraná platforma pro financování však může mít vlastní poplatky.",
 	"Youtube": "YouTube",
-	"Youtube Loader Settings": "Nastavení YouTube loaderu"
+	"Youtube Loader Settings": "Nastavení YouTube loaderu",
+	"based on": "na základě"
 }

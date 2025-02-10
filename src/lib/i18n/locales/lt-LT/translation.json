@@ -1090,5 +1090,6 @@
 	"Your account status is currently pending activation.": "Jūsų paskyra laukia administratoriaus patvirtinimo.",
 	"Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.": "Jūsų finansinis prisidėjimas tiesiogiai keliaus modulio kūrėjui.",
 	"Youtube": "Youtube",
-	"Youtube Loader Settings": "Youtube krovimo nustatymai"
+	"Youtube Loader Settings": "Youtube krovimo nustatymai",
+	"based on": "pagal"
 }

@@ -1090,5 +1090,6 @@
 	"Your account status is currently pending activation.": "Fiókja jelenleg aktiválásra vár.",
 	"Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.": "A teljes hozzájárulása közvetlenül a bővítmény fejlesztőjéhez kerül; az Open WebUI nem vesz le százalékot. Azonban a választott támogatási platformnak lehetnek saját díjai.",
 	"Youtube": "YouTube",
-	"Youtube Loader Settings": "YouTube betöltő beállítások"
+	"Youtube Loader Settings": "YouTube betöltő beállítások",
+	"based on": "alapján"
 }

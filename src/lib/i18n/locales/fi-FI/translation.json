@@ -1090,5 +1090,6 @@
 	"Your account status is currently pending activation.": "Tilisi tila on tällä hetkellä odottaa aktivointia.",
 	"Your entire contribution will go directly to the plugin developer; Open WebUI does not take any percentage. However, the chosen funding platform might have its own fees.": "Koko panoksesi menee suoraan lisäosan kehittäjälle; Open WebUI ei pidätä prosenttiosuutta. Valittu rahoitusalusta voi kuitenkin periä omia maksujaan.",
 	"Youtube": "YouTube",
-	"Youtube Loader Settings": "YouTube Loader -asetukset"
+	"Youtube Loader Settings": "YouTube Loader -asetukset",
+	"based on": "perustuu"
 }
