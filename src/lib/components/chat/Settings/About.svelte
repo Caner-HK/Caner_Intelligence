@@ -47,7 +47,8 @@
 		<div>
 			<div class=" mb-2.5 text-sm font-medium flex space-x-2 items-center">
 				<div>
-					{$WEBUI_NAME} ({$i18n.t('based on')} "Open WebUI")
+					{$WEBUI_NAME} ({$i18n.t('based on')} Open WebUI)
+					<br>
 					{$i18n.t('Version')}
 				</div>
 			</div>
