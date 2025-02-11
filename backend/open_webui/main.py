@@ -281,6 +281,7 @@ from open_webui.env import (
     BYPASS_MODEL_ACCESS_CONTROL,
     RESET_CONFIG_ON_START,
     OFFLINE_MODE,
+    STATICS_URL,
 )
 
 
@@ -1218,3 +1219,11 @@ else:
     log.warning(
         f"Frontend build directory not found at '{FRONTEND_BUILD_DIR}'. Serving API only."
     )
+
+####################################
+# STATICS_URL by dorm
+####################################
+
+@app.get("/api/statics_url")
+async def get_statics_url():
+    return {"statics_url": STATICS_URL}
