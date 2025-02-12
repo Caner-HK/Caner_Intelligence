@@ -281,7 +281,6 @@ from open_webui.env import (
     BYPASS_MODEL_ACCESS_CONTROL,
     RESET_CONFIG_ON_START,
     OFFLINE_MODE,
-    STATICS_URL,
 )
 
 
