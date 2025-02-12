@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link id="icon-96" rel="icon" type="image/png" sizes="96x96" />
-		<link id="icon-svg" rel="icon" type="image/svg+xml" />
-		<link id="icon-ico" rel="shortcut icon" />
-		<link id="icon-apple" rel="apple-touch-icon" sizes="180x180" />
+		<link id="icon-96" rel="icon" type="image/png" sizes="96x96" href="/static/favicon/favicon-96x96.png" />
+		<link id="icon-svg" rel="icon" type="image/svg+xml" href="/static/favicon/favicon.svg" />
+		<link id="icon-ico" rel="shortcut icon" href="/static/favicon/favicon.ico" />
+		<link id="icon-apple" rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png" />
         <!--<meta name="apple-mobile-web-app-title" content="Open WebUI" />-->
 		<meta name="apple-mobile-web-app-title" content="Caner Intelligence" />
 		<link rel="manifest" href="/favicon/site.webmanifest" />
@@ -84,26 +84,6 @@
 				});
 			})();
 </script>
-
-		<script>
-    async function updateFaviconUrls() {
-        try {
-            const response = await fetch('/api/statics_url');
-            const data = await response.json();
-            const baseUrl = data.statics_url;
-
-            document.getElementById('icon-96').href = `${baseUrl}/favicon/favicon-96x96.png`;
-            document.getElementById('icon-svg').href = `${baseUrl}/favicon/favicon.svg`;
-            document.getElementById('icon-ico').href = `${baseUrl}/favicon/favicon.ico`;
-            document.getElementById('icon-apple').href = `${baseUrl}/favicon/apple-touch-icon.png`;
-        } catch (error) {
-            console.error('Error fetching statics URL:', error);
-			console.error('Maybe this does not affect your enjoyment of playing XD');
-        }
-    }
-
-    updateFaviconUrls();
-		</script>
 
 		<title>Caner Intelligence</title>
 

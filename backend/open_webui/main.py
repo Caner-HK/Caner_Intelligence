@@ -1220,10 +1220,3 @@ else:
         f"Frontend build directory not found at '{FRONTEND_BUILD_DIR}'. Serving API only."
     )
 
-####################################
-# STATICS_URL by dorm
-####################################
-
-@app.get("/api/statics_url")
-async def get_statics_url():
-    return {"statics_url": STATICS_URL}
